@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/monnaie"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="25dp">
+        android:layout_marginLeft="10dp">
 
         <RadioButton
             android:id="@+id/Euro"
@@ -55,6 +55,14 @@
             android:textStyle="bold" />
 
     </RadioGroup>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/monnaie"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/imgconv" />
 
     <Button
         android:id="@+id/conv"
